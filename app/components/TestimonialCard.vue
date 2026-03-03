@@ -8,8 +8,8 @@ defineProps<{
 </script>
 
 <template>
-  <div
-    class="mx-auto flex flex-col rounded-[4px] border-2 border-[#FFFAFA] bg-[#FEFEFF] p-[24px] shadow-[0px_4px_10px_0px_#0000001A] lg:h-[276px] w-full lg:max-w-[396px] lg:gap-[18px] lg:px-[30px] lg:py-[40px]"
+  <article
+    class="mx-auto flex flex-col rounded-[4px] border-2 border-[#FFFAFA] bg-[#FEFEFF] p-[24px] shadow-[0px_4px_10px_0px_#0000001A] lg:min-h-[276px] w-full lg:max-w-[396px] lg:gap-[18px] lg:px-[30px] lg:py-[40px]"
   >
     <p
       class="text-left text-[18px] font-[400] italic leading-[150%] text-[#101010] lg:text-[20px]"
@@ -18,11 +18,12 @@ defineProps<{
     </p>
 
     <div
-      class="mt-auto flex items-center gap-3 lg:h-[82px] w-full lg:gap-[23.08px]"
+      class="mt-auto flex items-center gap-3 lg:min-h-[82px] w-full lg:gap-[23.08px]"
     >
       <img
         :src="photo"
-        :alt="name"
+        :alt="'Photo of ' + name"
+        loading="lazy"
         class="h-[56px] w-[56px] rounded-full object-cover lg:h-[69.231px] lg:w-[69.231px] lg:rounded-[69.23px]"
       />
       <div
@@ -40,5 +41,5 @@ defineProps<{
         </p>
       </div>
     </div>
-  </div>
+  </article>
 </template>

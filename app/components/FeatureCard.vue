@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
   <div
-    class="flex flex-col rounded-[8px] bg-[#ECEBF5] p-6 lg:h-[256px] w-full max-w-[569px] gap-6 lg:gap-10 lg:p-[24px]"
+    class="flex flex-col rounded-[8px] bg-[#ECEBF5] p-6 lg:min-h-[256px] w-full max-w-[569px] gap-6 lg:gap-10 lg:p-[24px]"
   >
     <div
       class="relative h-[47px] w-[47px] rounded-[4px] bg-[#42389E] text-white"
@@ -33,7 +33,8 @@ defineProps<{
       </p>
       <a
         href="#"
-        class="inline-flex whitespace-nowrap text-[#42389E] font-[600] hover:underline lg:items-center lg:gap-[10px] lg:text-[14px] lg:leading-[100%] lg:tracking-[0] lg:[text-transform:capitalize]"
+        :aria-label="'Get Started with ' + title"
+        class="inline-flex whitespace-nowrap text-[#42389E] font-[600] hover:underline focus:outline-none focus:ring-2 focus:ring-[#42389E] focus:rounded-sm lg:items-center lg:gap-[10px] lg:text-[14px] lg:leading-[100%] lg:tracking-[0] lg:[text-transform:capitalize]"
       >
         Get Started
       </a>

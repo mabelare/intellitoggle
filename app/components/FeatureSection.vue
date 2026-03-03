@@ -1,12 +1,13 @@
 <template>
   <section
-    class="py-16 lg:mx-auto lg:flex lg:h-[920px] lg:max-w-[1440px] lg:justify-center lg:py-[80px]"
+    aria-label="Powerful features"
+    class="py-16 lg:mx-auto lg:flex lg:min-h-[920px] lg:max-w-[1440px] lg:justify-center lg:py-[80px]"
   >
     <div
-      class="mx-auto flex flex-col gap-12 px-4 lg:h-[760px] w-full lg:max-w-[1184px] lg:gap-[64px] lg:px-10"
+      class="mx-auto flex flex-col gap-12 px-4 lg:min-h-[760px] w-full lg:max-w-[1184px] lg:gap-[64px] lg:px-10"
     >
       <div
-        class="text-center lg:mx-auto lg:flex lg:h-[132px] w-full lg:max-w-[868px] lg:flex-col lg:justify-between"
+        class="text-center lg:mx-auto lg:flex lg:min-h-[132px] w-full lg:max-w-[868px] lg:flex-col lg:justify-between"
       >
         <h2
           class="text-3xl font-semibold text-[#2E2E2E] lg:text-[48px] lg:leading-[100%]"
@@ -21,12 +22,12 @@
       </div>
 
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:h-[618px] w-full lg:max-w-[1184px] lg:gap-[32px]"
+        class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:min-h-[618px] w-full lg:max-w-[1184px] lg:gap-[32px]"
       >
         <FeatureCard
           icon="/file.png"
           icon-alt="AI Icon"
-          title="AI–Powered Flag Creation"
+          title="AI-Powered Flag Creation"
           description="Our AI analyzes your user base, traffic patterns, and historical data to suggest optimal rollout strategies automatically."
         />
         <FeatureCard

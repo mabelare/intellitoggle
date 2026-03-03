@@ -1,12 +1,13 @@
 <template>
   <section
-    class="py-[64px] lg:mx-auto lg:mt-[91px] lg:h-[720px] lg:max-w-[1440px] lg:py-[80px]"
+    aria-label="Built for every team"
+    class="py-[64px] lg:mx-auto lg:mt-[91px] lg:min-h-[720px] lg:max-w-[1440px] lg:py-[80px]"
   >
     <div
-      class="mx-auto flex flex-col gap-8 px-4 lg:h-[538px] w-full lg:max-w-[1243px] lg:justify-between lg:gap-[64px] lg:px-[100px]"
+      class="mx-auto flex flex-col gap-8 px-4 lg:min-h-[538px] w-full lg:max-w-[1243px] lg:justify-between lg:gap-[64px] lg:px-[100px]"
     >
       <div
-        class="text-center lg:mx-auto lg:flex lg:h-[132px] w-full lg:max-w-[868px] lg:flex-col lg:justify-between"
+        class="text-center lg:mx-auto lg:flex lg:min-h-[132px] w-full lg:max-w-[868px] lg:flex-col lg:justify-between"
       >
         <h2
           class="mx-auto text-3xl font-semibold text-[#2E2E2E] lg:text-[48px] lg:leading-[100%]"

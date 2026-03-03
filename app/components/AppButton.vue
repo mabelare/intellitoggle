@@ -23,7 +23,7 @@ const variantClasses: Record<string, string> = {
   <button
     type="button"
     :class="[
-      'inline-flex items-center justify-center gap-[10px] whitespace-nowrap rounded-[5px] font-[700] leading-[23px]',
+      'inline-flex items-center justify-center gap-[10px] whitespace-nowrap rounded-[5px] font-[700] leading-[23px] focus:outline-none focus:ring-2 focus:ring-[#42389E] focus:ring-offset-2',
       variantClasses[props.variant],
     ]"
   >

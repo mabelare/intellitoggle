@@ -1,6 +1,7 @@
 <template>
   <section
-    class="bg-[#ECEBF5] py-[56px] lg:mx-auto lg:h-[596px] w-full lg:p-[80px]"
+    aria-label="Customer testimonials"
+    class="bg-[#ECEBF5] py-[56px] lg:mx-auto lg:min-h-[596px] w-full lg:p-[80px]"
   >
     <div
       class="mx-auto flex flex-col gap-8 px-4 w-full lg:max-w-[1284px] lg:gap-[26px] lg:px-0"
@@ -42,9 +43,12 @@
     </div>
   </section>
 
-  <section class="px-4 py-[56px] lg:mx-auto w-full lg:px-[98px] lg:py-[72px]">
+  <section
+    aria-label="Call to action"
+    class="px-4 py-[56px] lg:mx-auto w-full lg:px-[98px] lg:py-[72px]"
+  >
     <div
-      class="relative mx-auto rounded-[20px] bg-[radial-gradient(50%_50%_at_50%_50%,_#6F66C2_0%,_#42389E_100%)] lg:h-[375px] w-full max-w-[1243px] flex-col justify-center items-center"
+      class="relative mx-auto rounded-[20px] bg-[radial-gradient(50%_50%_at_50%_50%,_#6F66C2_0%,_#42389E_100%)] lg:min-h-[375px] w-full max-w-[1243px] flex-col justify-center items-center"
     >
       <div
         class="mx-auto h-full flex w-full flex-col justify-center items-center gap-10 text-center max-w-[896px] p-6 lg:gap-[48px]"
@@ -67,11 +71,11 @@
         >
           <AppButton
             variant="cta-primary"
-            class="h-[55px] w-[210px] text-[20px]"
+            class="h-[55px] w-full sm:w-[210px] text-[20px]"
           >
             <span>Start for $1/mo</span>
           </AppButton>
-          <AppButton variant="cta-ghost" class="h-[55px] w-[231px] text-[20px]">
+          <AppButton variant="cta-ghost" class="h-[55px] w-full sm:w-[231px] text-[20px]">
             <span>Join AI Early Access</span>
           </AppButton>
         </div>
