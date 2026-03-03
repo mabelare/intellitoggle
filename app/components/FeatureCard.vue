@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import { Icon } from "@iconify/vue";
+
 defineProps<{
   icon: string;
-  iconAlt?: string;
   title: string;
   description: string;
 }>();
@@ -12,13 +13,9 @@ defineProps<{
     class="flex flex-col rounded-[8px] bg-[#ECEBF5] p-6 lg:min-h-[256px] w-full max-w-[569px] gap-6 lg:gap-10 lg:p-[24px]"
   >
     <div
-      class="relative h-[47px] w-[47px] rounded-[4px] bg-[#42389E] text-white"
+      class="flex h-[47px] w-[47px] items-center justify-center rounded-[4px] bg-[#42389E] text-white"
     >
-      <img
-        :src="icon"
-        :alt="iconAlt || title"
-        class="absolute left-[11px] top-[12px] h-[24px] w-[24px]"
-      />
+      <Icon :icon="icon" class="h-[24px] w-[24px]" aria-hidden="true" />
     </div>
     <div class="flex flex-col gap-4 lg:gap-[16px]">
       <h3

@@ -25,26 +25,22 @@
         class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:min-h-[618px] w-full lg:max-w-[1184px] lg:gap-[32px]"
       >
         <FeatureCard
-          icon="/file.png"
-          icon-alt="AI Icon"
+          icon="mdi:file-document-edit-outline"
           title="AI-Powered Flag Creation"
           description="Our AI analyzes your user base, traffic patterns, and historical data to suggest optimal rollout strategies automatically."
         />
         <FeatureCard
-          icon="/file.png"
-          icon-alt="AI Icon"
+          icon="mdi:target-account"
           title="Smart Targeting"
           description="Advanced user segmentation with real-time behavioral analysis ensures your features reach the most engaged audience."
         />
         <FeatureCard
-          icon="/file.png"
-          icon-alt="AI Icon"
+          icon="mdi:broom"
           title="Flag Cleanup"
           description="Keep your codebase clean with intelligent flag lifecycle management that removes technical debt automatically."
         />
         <FeatureCard
-          icon="/file.png"
-          icon-alt="note Icon"
+          icon="mdi:ab-testing"
           title="Environment & A/B Testing"
           description="Multi-environment support with sophisticated A/B testing framework gives you confidence in every release."
         />
