@@ -3,7 +3,7 @@
     class="py-16 lg:mx-auto lg:flex lg:h-[920px] lg:max-w-[1440px] lg:justify-center lg:py-[80px]"
   >
     <div
-      class="mx-auto flex flex-col gap-12 px-4 lg:h-[760px] w-full lg:max-w-[1184px] lg:gap-[64px] lg:px-0"
+      class="mx-auto flex flex-col gap-12 px-4 lg:h-[760px] w-full lg:max-w-[1184px] lg:gap-[64px] lg:px-10"
     >
       <div
         class="text-center lg:mx-auto lg:flex lg:h-[132px] w-full lg:max-w-[868px] lg:flex-col lg:justify-between"

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-[#ECEBF5] py-[56px] lg:mx-auto lg:h-[596px] lg:w-[1440px] lg:p-[80px]"
+    class="bg-[#ECEBF5] py-[56px] lg:mx-auto lg:h-[596px] w-full lg:p-[80px]"
   >
     <div
       class="mx-auto flex flex-col gap-8 px-4 w-full lg:max-w-[1284px] lg:gap-[26px] lg:px-0"
@@ -42,14 +42,12 @@
     </div>
   </section>
 
-  <section
-    class="px-4 py-[56px] lg:mx-auto lg:w-[1440px] lg:px-[98px] lg:py-[72px]"
-  >
+  <section class="px-4 py-[56px] lg:mx-auto w-full lg:px-[98px] lg:py-[72px]">
     <div
-      class="relative mx-auto rounded-[20px] bg-[radial-gradient(50%_50%_at_50%_50%,_#6F66C2_0%,_#42389E_100%)] px-6 py-12 lg:h-[375px] w-full lg:max-w-[1243px] lg:px-0 lg:py-0"
+      class="relative mx-auto rounded-[20px] bg-[radial-gradient(50%_50%_at_50%_50%,_#6F66C2_0%,_#42389E_100%)] lg:h-[375px] w-full max-w-[1243px] flex-col justify-center items-center"
     >
       <div
-        class="mx-auto flex w-full flex-col items-center gap-10 text-center lg:absolute lg:left-[174px] lg:top-[73px] lg:h-[230px] lg:max-w-[896px] lg:gap-[48px]"
+        class="mx-auto h-full flex w-full flex-col justify-center items-center gap-10 text-center max-w-[896px] p-6 lg:gap-[48px]"
       >
         <div class="flex flex-col items-center gap-4">
           <h2

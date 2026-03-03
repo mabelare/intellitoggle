@@ -1,6 +1,6 @@
 <template>
   <section class="overflow-x-hidden py-[56px] w-full mx-auto max-w-[1240px]">
-    <div class="w-full px-4 lg:px-0">
+    <div class="w-full px-4 lg:px-10">
       <div
         class="flex flex-col items-start gap-[40px] md:justify-between lg:flex-row lg:gap-[60px]"
       >
