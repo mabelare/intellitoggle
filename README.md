@@ -39,7 +39,7 @@ app/
 nuxt.config.ts         - Nuxt configuration
 tailwind.config.ts     - Tailwind CSS custom theme (fonts, colors)
 netlify.toml           - Netlify deployment settings
-pixelay/               - Pixelay comparison notes
+pixelay/               - Pixelay overlay screenshots and comparison notes
 ```
 
 ## Interactive Elements
@@ -64,7 +64,3 @@ pixelay/               - Pixelay comparison notes
 - **Responsive breakpoints:** Tailwind's default breakpoint system was used rather than matching Figma's exact artboard widths. This provides a more maintainable responsive layout but may introduce minor spacing differences at certain viewport sizes.
 - **Static generation:** The site uses `nuxt generate` for deployment. No server-side rendering at request time, which is appropriate for a marketing page.
 - **Floating overlay cards:** The decorative UI preview cards in the hero section are only shown at xl (1280px+) breakpoints to prevent viewport overflow at narrower desktop widths.
-
-## Pixelay Comparison
-
-The `pixelay/` directory contains notes on the Figma-to-browser comparison. Pixelay didn't work, so automated overlay screenshots could not be generated. See `pixelay/notes.md` for details on expected visual differences.
