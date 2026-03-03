@@ -258,10 +258,10 @@
             aria-label="Time remaining for offer"
             class="flex w-full lg:w-max flex-wrap items-center justify-center gap-2 sm:gap-3 lg:gap-[16px]"
           >
-            <CountdownUnit value="36" label="Days" />
-            <CountdownUnit value="04" label="Hrs" />
-            <CountdownUnit value="45" label="Min" />
-            <CountdownUnit value="22" label="Sec" />
+            <CountdownUnit :value="days" label="Days" />
+            <CountdownUnit :value="hours" label="Hrs" />
+            <CountdownUnit :value="minutes" label="Min" />
+            <CountdownUnit :value="seconds" label="Sec" />
           </div>
         </div>
       </section>
@@ -270,7 +270,27 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, computed, onMounted, onUnmounted } from "vue";
 
 const isMobileMenuOpen = ref(false);
+
+const initialTotalSeconds = 36 * 86400 + 4 * 3600 + 45 * 60 + 22;
+const remaining = ref(initialTotalSeconds);
+let timer: ReturnType<typeof setInterval> | null = null;
+
+onMounted(() => {
+  timer = setInterval(() => {
+    if (remaining.value > 0) remaining.value--;
+  }, 1000);
+});
+
+onUnmounted(() => {
+  if (timer) clearInterval(timer);
+});
+
+const pad = (n: number) => String(n).padStart(2, "0");
+const days = computed(() => pad(Math.floor(remaining.value / 86400)));
+const hours = computed(() => pad(Math.floor((remaining.value % 86400) / 3600)));
+const minutes = computed(() => pad(Math.floor((remaining.value % 3600) / 60)));
+const seconds = computed(() => pad(remaining.value % 60));
 </script>
