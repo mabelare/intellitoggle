@@ -130,7 +130,7 @@
             Trusted by various engineering teams
           </h2>
           <div
-            class="mx-auto mt-10 grid max-w-[980px] grid-cols-2 sm:grid-cols-3 items-center gap-x-10 gap-y-8 lg:mt-0 lg:min-h-[60px] lg:max-w-[847.268px] lg:w-full lg:grid-cols-[155.268px_120px_120px_120px_120px] lg:justify-between lg:gap-x-0 lg:gap-y-0"
+            class="mx-auto mt-10 grid max-w-[980px] grid-cols-2 sm:grid-cols-3 items-center gap-x-10 gap-y-8 lg:mt-0 lg:min-h-[60px] lg:max-w-[847.268px] lg:w-full lg:grid-cols-[155.268px_120px_120px_120px_120px] lg:justify-center lg:gap-x-[50px] lg:gap-y-0"
           >
             <img
               src="/googlecloud.png"

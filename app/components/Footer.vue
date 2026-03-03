@@ -52,17 +52,23 @@
             class="mt-4 space-y-3 text-[14px] font-[300] text-[#263238] lg:mt-[16px] lg:text-[16px] lg:leading-[24px]"
           >
             <li>
-              <a href="#" class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
+              <a
+                href="#"
+                class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
                 >Pricing</a
               >
             </li>
             <li>
-              <a href="#" class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
+              <a
+                href="#"
+                class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
                 >Documentation</a
               >
             </li>
             <li>
-              <a href="#" class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
+              <a
+                href="#"
+                class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
                 >About Us</a
               >
             </li>
@@ -79,22 +85,30 @@
             class="mt-4 space-y-1 text-[14px] font-[300] text-[#263238] lg:mt-[16px] lg:text-[16px] lg:leading-[24px]"
           >
             <li>
-              <a href="#" class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
+              <a
+                href="#"
+                class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
                 >Why IntelliToggle is different</a
               >
             </li>
             <li>
-              <a href="#" class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
+              <a
+                href="#"
+                class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
                 >Customer Support</a
               >
             </li>
             <li>
-              <a href="#" class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
+              <a
+                href="#"
+                class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
                 >Terms & conditions</a
               >
             </li>
             <li>
-              <a href="#" class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
+              <a
+                href="#"
+                class="hover:text-[#42389E] focus:outline-none focus:underline transition-colors"
                 >Privacy Policy</a
               >
             </li>
@@ -105,7 +119,7 @@
           class="col-span-2 mt-10 lg:col-span-1 lg:mt-0 lg:flex lg:max-w-[321.667px] lg:flex-col lg:gap-[27px]"
         >
           <h3
-            class="text-[16px] font-[600] text-[#263238] lg:text-[15px] lg:leading-[100%]"
+            class="text-[16px] font-[600] text-[#263238] lg:text-[15px] lg:leading-[100%] text-center sm:text-left"
             id="newsletter-label"
           >
             Subscribe to Newsletter
