@@ -64,3 +64,7 @@ pixelay/               - Pixelay overlay screenshots and comparison notes
 - **Responsive breakpoints:** Tailwind's default breakpoint system was used rather than matching Figma's exact artboard widths. This provides a more maintainable responsive layout but may introduce minor spacing differences at certain viewport sizes.
 - **Static generation:** The site uses `nuxt generate` for deployment. No server-side rendering at request time, which is appropriate for a marketing page.
 - **Floating overlay cards:** The decorative UI preview cards in the hero section are only shown at xl (1280px+) breakpoints to prevent viewport overflow at narrower desktop widths.
+
+## Pixelay Comparison
+
+The `pixelay/` directory contains the Figma-to-browser overlay comparison. A desktop overlay screenshot (`pixelay-desktop.png`) was captured at 50% opacity using Pixelay's transparent overlay mode. A mobile overlay could not be captured reliably. See `pixelay/notes.md` for details on visible differences.
