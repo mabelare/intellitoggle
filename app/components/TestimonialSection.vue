@@ -51,7 +51,7 @@
       class="relative mx-auto rounded-[20px] bg-[radial-gradient(50%_50%_at_50%_50%,_#6F66C2_0%,_#42389E_100%)] lg:min-h-[375px] w-full max-w-[1243px] flex-col justify-center items-center"
     >
       <div
-        class="mx-auto h-full flex w-full flex-col justify-center items-center gap-10 text-center max-w-[896px] p-6 lg:gap-[48px]"
+        class="mx-auto lg:min-h-[375px] flex w-full flex-col justify-center items-center gap-10 text-center max-w-[896px] p-6 lg:gap-[48px]"
       >
         <div class="flex flex-col items-center gap-4">
           <h2
@@ -75,7 +75,10 @@
           >
             <span>Start for $1/mo</span>
           </AppButton>
-          <AppButton variant="cta-ghost" class="h-[55px] w-full sm:w-[231px] text-[20px]">
+          <AppButton
+            variant="cta-ghost"
+            class="h-[55px] w-full sm:w-[231px] text-[20px]"
+          >
             <span>Join AI Early Access</span>
           </AppButton>
         </div>
